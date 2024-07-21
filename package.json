@@ -1,0 +1,26 @@
+{
+  "name": "backend_tube",
+  "version": "1.0.0",
+  "description": "backend for youtube like video app, developed with professional guidance.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "backend",
+    "mongoose",
+    "express",
+    "javascript"
+  ],
+  "author": "rahul sinha",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
