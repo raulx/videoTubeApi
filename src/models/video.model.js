@@ -22,6 +22,11 @@ const videoSchema = new Schema(
       required: true,
     },
 
+    owner: {
+      type: Schema.Types.ObjectId,
+      ref: "User",
+    },
+
     views: {
       type: Number,
       default: 0,

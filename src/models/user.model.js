@@ -40,6 +40,10 @@ const userSchema = new Schema(
       required: true,
     },
 
+    refreshToken: {
+      type: String,
+    },
+
     watchHistory: [
       {
         type: Schema.Types.ObjectId,
